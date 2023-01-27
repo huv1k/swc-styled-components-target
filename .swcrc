@@ -1,0 +1,30 @@
+{
+  "jsc": {
+    "experimental": {
+      "plugins": [
+        [
+          "@swc/plugin-styled-components",
+          {
+            "ssr": false,
+            "displayName": false,
+            "transpileTemplateLiterals": false,
+            "minify": true
+          }
+        ]
+      ]
+    },
+    "target": "es2020",
+    "loose": true,
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    }
+  },
+  "minify": true,
+  "sourceMaps": false
+}

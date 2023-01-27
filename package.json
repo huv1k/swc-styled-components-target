@@ -1,0 +1,18 @@
+{
+  "name": "swc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx swc ./index.tsx -o out.js --config-file .swcrc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.59",
+    "@swc/core": "^1.3.29",
+    "@swc/plugin-styled-components": "^1.5.39"
+  },
+  "dependencies": {}
+}
